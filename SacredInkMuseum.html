@@ -2,122 +2,178 @@
 <html>
 
 <head>
-<style>
+    <style>
+        body {
+            background-color: #e8d8b5;
+            font-family: Georgia;
+            text-align: center;
+        }
 
-body {
-    background-color: #e8d8b5;
-    font-family: Georgia;
-    text-align: center;
-}
 
-h1 {
-    text-align: center;
-}
+        h1 {
+            text-align: center;
+        }
 
-.container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-}
 
-button {
-    background-color: #d6c39a;
-    border: none;
-    padding: 12px 20px;
-    font-family: Georgia;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 6px;
-}
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
 
-button:hover {
-    background-color: #a52a2a;
-    color: white;
-    transform: scale(1.1);
-}
 
-h2 {
-    font-size: 30px;
-    color: #a52a2a;
-}
+        button {
+            background-color: #d6c39a;
+            border: none;
+            padding: 12px 20px;
+            font-family: Georgia;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 6px;
+        }
 
-h3 {
-    font-size: 30px;
-    color: #a52a2a;
-}
 
-h4 {
-    font-size: 30px;
-    color: #a52a2a;
-}
+        button:hover {
+            background-color: #a52a2a;
+            color: white;
+            transform: scale(1.1);
+        }
 
-p {
-    font-style: italic;
-    font-size: 15px;
-}
+
+        h2 {
+            font-size: 30px;
+            color: #a52a2a;
+        }
+
+
+        h3 {
+            font-size: 30px;
+            color: #a52a2a;
+        }
+
+
+        h4 {
+            font-size: 30px;
+            color: #a52a2a;
+        }
+
+
+        p {
+            font-style: italic;
+            font-size: 15px;
+        }
+
 
 .bottom {
     background-color: #a52a2a;
     color: white;
-    text-align: center;
     margin-top: 40px;
     padding: 20px;
 }
 
-</style>
+.bottom-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 30px;
+}
+
+.bottom-img {
+    width: 200px; 
+    height: auto;
+    border-radius: 6px;
+}
+
+.bottom-text {
+    text-align: left;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.address, .newsletter {
+    font-size: 16px;
+}
+    </style>
 </head>
+
 
 <body>
 
-<h1>
-<img src="img/headerimage.png" width="1000" height="300"> 
-</h1>
 
-<div class="container">
-    <button>Home</button>
-    <button>Visit</button>
-    <button>Explore</button>
-    <button>Decades of Ink</button>
-    <button>Get Involved</button>
-    <button>FAQs</button>
-</div>
+    <h1>
+        <img src="img/headerimage.png" width="1000" height="300">
+    </h1>
 
-<div class="video">
-<p>
-    <video autoplay loop muted>
-        <source src="img/video.mp4">
-    </video>
-</p>
-</div>
 
-<div class="info">
-<h2>
-Mission Statement
-</h2>
-<p>
-    The Sacred Ink Museum is dedicated to the collection, preservation, and interpretation of the history of tattoos and showcases tattoos as a distinct form of graphic art and visual communication. Through original flash sheets, tools, and archival materials, the museum examines how tattoo imagery is created, circulated, and adapted across time. 
-</p>
+    <div class="container">
+        <button>Home</button>
+        <button>Visit</button>
+        <button>Explore</button>
+        <button>Decades of Ink</button>
+        <button>Get Involved</button>
+        <button>FAQs</button>
+    </div>
 
-<h3>
-        Vision Statement
-</h3>
-<p>
-    The Sacred Ink Museum envisions a future in which tattooing is widely recognized as a vital form of graphic art and visual communication—one that carries personal meaning, collective memory, and cultural knowledge. The museum seeks to elevate tattoo history within museum spaces by honoring the artists, communities, and visual languages that have shaped tattooing across time and place.
-</p>
 
-<h4>
-    Core Values
-</h4>
-<p>
-    Artistry & Visual Language, Cultural Context & History, Preservation & Documentation, Respect for Artists & Communities, and Accessibility & Education
-</p>
-</div>
+    <div class="video">
+        <p>
+            <video autoplay loop muted height>
+                <source src="img/video.mp4">
+            </video>
+        </p>
+    </div>
+
+
+    <div class="info">
+        <h2>
+            Mission Statement
+        </h2>
+        <p>
+            The Sacred Ink Museum is dedicated to the collection, preservation, and interpretation of the history of
+            tattoos and showcases tattoos as a distinct form of graphic art and visual communication. Through original
+            flash sheets, tools, and archival materials, the museum examines how tattoo imagery is created, circulated,
+            and adapted across time.
+        </p>
+
+
+        <h3>
+            Vision Statement
+        </h3>
+        <p>
+            The Sacred Ink Museum envisions a future in which tattooing is widely recognized as a vital form of graphic
+            art and visual communication—one that carries personal meaning, collective memory, and cultural knowledge.
+            The museum seeks to elevate tattoo history within museum spaces by honoring the artists, communities, and
+            visual languages that have shaped tattooing across time and place.
+        </p>
+
+
+        <h4>
+            Core Values
+        </h4>
+        <p>
+            Artistry & Visual Language, Cultural Context & History, Preservation & Documentation, Respect for Artists &
+            Communities, and Accessibility & Education
+        </p>
+    </div>
 
 <div class="bottom">
-<p> Sacred Ink Museum </p>
+    <div class="bottom-container">
+        <img src="img/bottomimg.jpg" class="bottom-img">
+
+        <div class="bottom-text">
+            <p class="name">Sacred Ink Museum</p>
+            <p class="address">1234 Vermillion Way Sacramento, CA 95824</p>
+            <p class="newsletter">Subscribe to our newsletter</p>
+            <p class="link"><a href="https://forms.gle/FMsP5SY2QeBYEesJA">Sacred Ink Newsletter: Click Here</a></p>
+        </div>
+    </div>
 </div>
 
 </body>
+
 
 </html>
